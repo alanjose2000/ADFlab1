@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory-atj"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"DataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"MySQLdb_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "trainserversuh.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "PracticeDB"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"DataLakeStorage_properties_typeProperties_url": {
+			"value": "https://storageaccatj.dfs.core.windows.net/"
+		},
+		"GithubDatasets_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"MySQLdb_properties_typeProperties_server": {
+			"value": "trainingdbserv.database.windows.net"
+		},
+		"MySQLdb_properties_typeProperties_database": {
+			"value": "training_DB"
+		},
+		"MySQLdb_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		}
+	}
+}
