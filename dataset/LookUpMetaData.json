@@ -1,0 +1,31 @@
+{
+	"name": "LookUpMetaData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MySQLdb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "TableName",
+				"type": "varchar"
+			},
+			{
+				"name": "LastModifiedDate",
+				"type": "date"
+			}
+		],
+		"typeProperties": {
+			"schema": "Cntrl",
+			"table": "Metadata"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

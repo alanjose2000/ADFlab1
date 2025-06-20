@@ -1,0 +1,9 @@
+{
+	"name": "datafactory-atj",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "22e60754-102c-49b1-b10b-c0f198b31850",
+		"tenantId": "aa593602-ff67-417d-881e-9a0e8496d3dc"
+	}
+}

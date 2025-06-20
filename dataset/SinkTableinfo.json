@@ -1,0 +1,17 @@
+{
+	"name": "SinkTableinfo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MySQLdb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "Landing",
+			"table": "VM_SORDERS"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
